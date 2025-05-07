@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+@import "tailwindcss";
+
+@theme{
+    --color-backGround: #F9F2EF;
+    --color-secondBg:#F7FCFE;
+    --color-thirdBg: #BC9579;
+    --color-fourthBg: #562E19;
+    --font-primary: "Domine","Helvetica";
+    --font-secondary: "Merriweather", "Helvetica";
+    --font-tertiary: "Inter", "Helvetica";
+    
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE 10+ */
+  scrollbar-width: none;     /* Firefox */
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;             /* Chrome, Safari, Opera */
+}
